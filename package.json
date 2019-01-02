@@ -1,0 +1,39 @@
+{
+  "name": "brainwave-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc  && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@types/csvtojson": "^1.1.5",
+    "@types/mongodb": "^3.1.18",
+    "body-parser": "^1.18.3",
+    "csvtojson": "^2.0.8",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "file-saver": "^2.0.0",
+    "file-system": "^2.2.2",
+    "json2csv": "^4.3.0",
+    "memory-cache": "^0.2.0",
+    "mongodb": "^3.1.10",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/express": "^4.16.0",
+    "@types/express-session": "^1.15.11",
+    "@types/memory-cache": "^0.2.0",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.8",
+    "@types/passport": "^0.4.7",
+    "@types/passport-local": "^1.0.33",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "source-map-support": "^0.5.9"
+  },
+  "author": "",
+  "license": "ISC"
+}
