@@ -1,7 +1,8 @@
 # Brainwave
 
-This project is made using Node.js + Typescript and express. The compiled angular application is save in files and served at `\.`
+This project is made using Node.js + Typescript and express. The compiled angular application is saved in `.\files` and served at `\.`
 
+`.\dist` contains compiled javascript files
 The entry page is index.ts and express instance is created at app.ts
 
 # Dependency
