@@ -7,6 +7,7 @@ The entry page is index.ts and express instance is created at app.ts
 
 # Dependency
     - Typescript
+    - MongoDb
 
 # How to run
     Run the following commands:
